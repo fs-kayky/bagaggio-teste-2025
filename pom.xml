@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.fs-kayky</groupId>
 	<artifactId>bagaggio-teste</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>F
 	<name>bagaggio-teste</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -38,7 +38,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
@@ -53,6 +56,12 @@
 			<groupId>org.springframework.restdocs</groupId>
 			<artifactId>spring-restdocs-mockmvc</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.38</version>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
